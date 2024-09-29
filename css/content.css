@@ -1,0 +1,38 @@
+
+
+body{
+  background: rgb(225, 202, 214);
+  width: 700px;
+  margin: 50px auto;
+}
+
+
+h2{
+  color: rgb(54, 47, 49);
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+article{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 26px;
+}
+
+.ol1{
+   list-style-type: decimal; /*возврщание к значениям по умолчанию после ресета; для ul - disk */
+  }
+
+.ul{
+  list-style: circle;
+  } 
+
+.ol2{
+  list-style: lower-roman;
+}
+
+.ol3{
+  list-style: lower-greek;
+}
