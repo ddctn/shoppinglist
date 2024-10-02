@@ -1,38 +1,69 @@
-
-
 body{
-  background: rgb(225, 202, 214);
+  background: rgb(81, 47, 70);
   width: 700px;
   margin: 50px auto;
 }
 
 
 h2{
-  color: rgb(54, 47, 49);
-  margin-top: 20px;
-  font-size: 32px;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  font-size: 24px;
   font-weight: bold;
   line-height: 36px;
 }
 
 article{
-  margin-top: 8px;
-  margin-bottom: 8px;
-  font-size: 26px;
+  color: aliceblue;
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-style: dashed;
+  border-radius: 20px;
+  background: rgb(119, 67, 103);
+  width: 450px;
 }
 
-.ol1{
-   list-style-type: decimal; /*возврщание к значениям по умолчанию после ресета; для ul - disk */
+li{
+  margin-left: 60px;
+  margin-bottom: 5px;
+}
+
+.ice{
+  margin-bottom: 20px;
+}
+
+  /*
+   
+
+    top: 25px;
+    margin-left: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: .3; /* 30 %
+    transition: all 1s ease;
+  
+  
+  nav:hover{
+    opacity: 1; /* 100% 
+    transition: all 0.9s ease;
+  }
+  */
+
+/*
+  .ol1{
+    list-style-type: decimal; /*возврщание к значениям по умолчанию после ресета; для ul - disk 
+    }
+
+  .ul{
+    list-style: circle;
+    } 
+
+  .ol2{
+    list-style: lower-roman;
   }
 
-.ul{
-  list-style: circle;
-  } 
-
-.ol2{
-  list-style: lower-roman;
-}
-
-.ol3{
-  list-style: lower-greek;
-}
+  .ol3{
+    list-style: lower-greek;} */
